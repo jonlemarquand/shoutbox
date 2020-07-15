@@ -1,0 +1,8 @@
+@import '../styles/_shared.scss';
+
+.RightColumn {
+    width: 25%;
+    float: right;
+    border-left: 1px solid $elGrey;
+    margin-right: 40px;
+}

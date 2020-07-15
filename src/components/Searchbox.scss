@@ -1,0 +1,27 @@
+@import '../styles/_shared.scss';
+
+.Searchbox {
+    width: 100%;
+
+    input {
+        width: 80%;
+        background: $elGrey;
+        padding: 10px;
+        border-radius: 30px;
+        border: none;
+        color: $dGrey;
+        margin-top: 10px;
+        font-size: 14px;
+        font-family: $twitterFont;
+
+        &:focus {
+            background: #ffffff;
+            color: $dGrey;
+            border-radius: 30px;
+            border: 2px solid $twitterBlue;
+            outline: none;
+            padding: 8px;
+        }
+    }
+
+}

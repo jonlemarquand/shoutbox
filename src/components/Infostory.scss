@@ -1,0 +1,16 @@
+@import '../styles/_shared.scss';
+
+.Infostory {
+    border-top: solid 1px $elGrey;
+    padding: 10px 20px;
+
+    .topic {
+        font-size: 12px;
+        color: $dGrey;
+    }
+
+    &:hover {
+        background: $elGrey;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,15 @@
+@import '../styles/_shared.scss';
+
+.SidebarLink {
+    padding: 10px;
+    border-radius: 30px;
+    font-family: $twitterFont;
+    font-weight: 700;
+    font-size: 18px;
+
+    &:hover {
+        background: $lBlue;
+        color: $twitterBlue;
+        cursor: pointer;
+    }
+}

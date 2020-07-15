@@ -1,0 +1,19 @@
+@import '../../styles/_shared.scss';
+
+.Sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    width: 20%;
+    border-right: 1px solid $elGrey;
+    height: 100vh;
+    padding-left: 80px;
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    } 
+
+}
